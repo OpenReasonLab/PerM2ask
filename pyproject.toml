@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=64", "wheel>=0.41"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "perm2ask"
+version = "0.1.0"
+description = "Permission-gated retrieval and generation over personal medical hypergraphs"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.5,<3",
+    "numpy>=1.26,<3",
+    "onnxruntime>=1.20,<2",
+    "tokenizers>=0.20,<1",
+    "huggingface-hub>=0.25,<2",
+    "filelock>=3.13,<4",
+    "cryptography>=41,<50",
+]
+
+[project.optional-dependencies]
+reliabilityrag = ["transformers>=4.46,<6", "sentencepiece>=0.2,<1"]
+test = ["pytest>=7,<10"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

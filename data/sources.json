@@ -1,0 +1,66 @@
+{
+  "asclepius/README.md": {
+    "dataset": "asclepius",
+    "revision": "52af6897eb1bf275a8937ae54bf42da381fe9421",
+    "license": "CC-BY-NC-SA-4.0",
+    "bytes": 3072,
+    "sha256": "7cfaa590f3b4515ae3144180473d2338d688d4f9f0a544ca09f525b223314a8b",
+    "url": "https://huggingface.co/datasets/starmpcc/Asclepius-Synthetic-Clinical-Notes/resolve/52af6897eb1bf275a8937ae54bf42da381fe9421/README.md"
+  },
+  "asclepius/synthetic.csv": {
+    "dataset": "asclepius",
+    "revision": "52af6897eb1bf275a8937ae54bf42da381fe9421",
+    "license": "CC-BY-NC-SA-4.0",
+    "bytes": 401793563,
+    "sha256": "083b1b3531ad5865bcac23250ec04a532b70df8ff534b8aa9bee87b04cf97c84",
+    "url": "https://huggingface.co/datasets/starmpcc/Asclepius-Synthetic-Clinical-Notes/resolve/52af6897eb1bf275a8937ae54bf42da381fe9421/synthetic.csv"
+  },
+  "ltqa/README.md": {
+    "dataset": "ltqa",
+    "revision": "f1d8f27376eb0854ec5b476e88b942d0060eee62",
+    "license": "ODC-By-1.0",
+    "bytes": 4206,
+    "sha256": "2e0774ada0af636a65ca4a00794ee50500d9eff0e846f8c6ab141ff17ed4a29a",
+    "url": "https://huggingface.co/datasets/parameterlab/leaky_thoughts/resolve/f1d8f27376eb0854ec5b476e88b942d0060eee62/README.md"
+  },
+  "ltqa/airgapagent-r.json": {
+    "dataset": "ltqa",
+    "revision": "f1d8f27376eb0854ec5b476e88b942d0060eee62",
+    "license": "ODC-By-1.0",
+    "bytes": 7885173,
+    "sha256": "117a76be7caa1e0cde682a0f594fb70af8c6e6859041bc8a5b39c48b22bdf3e3",
+    "url": "https://huggingface.co/datasets/parameterlab/leaky_thoughts/resolve/f1d8f27376eb0854ec5b476e88b942d0060eee62/airgapagent-r.json"
+  },
+  "nhs_synthetic/README.md": {
+    "dataset": "nhs_synthetic",
+    "revision": "368a5bd2a55090a0bae3436f2823d606c5077158",
+    "license": "MIT",
+    "bytes": 4270,
+    "sha256": "f36232b1c13933e900d3046e32c3692ab484a225df9335866ee021b58c7863b4",
+    "url": "https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes/resolve/368a5bd2a55090a0bae3436f2823d606c5077158/README.md"
+  },
+  "nhs_synthetic/admissions.csv": {
+    "dataset": "nhs_synthetic",
+    "revision": "368a5bd2a55090a0bae3436f2823d606c5077158",
+    "license": "MIT",
+    "bytes": 19651,
+    "sha256": "dbd6744ee99cddbcf67593939b10b405d8984a049a2ceeb5fd7b8250e62ad3fb",
+    "url": "https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes/resolve/368a5bd2a55090a0bae3436f2823d606c5077158/silver/admissions.csv"
+  },
+  "nhs_synthetic/patients.csv": {
+    "dataset": "nhs_synthetic",
+    "revision": "368a5bd2a55090a0bae3436f2823d606c5077158",
+    "license": "MIT",
+    "bytes": 5958,
+    "sha256": "881daa1907b150545f96f3c0d6af1ae8363b0a81a56e14a80b55c49dcdb89853",
+    "url": "https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes/resolve/368a5bd2a55090a0bae3436f2823d606c5077158/silver/patients.csv"
+  },
+  "nhs_synthetic/synthetic_clinical_notes.csv": {
+    "dataset": "nhs_synthetic",
+    "revision": "368a5bd2a55090a0bae3436f2823d606c5077158",
+    "license": "MIT",
+    "bytes": 1761191,
+    "sha256": "2b33c63308c3dcdb6542d23b926acc570c235215eacc6975ac8b5879fca43299",
+    "url": "https://huggingface.co/datasets/NHSEDataScience/synthetic_clinical_notes/resolve/368a5bd2a55090a0bae3436f2823d606c5077158/silver/synthetic_clinical_notes.csv"
+  }
+}

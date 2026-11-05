@@ -1,0 +1,105 @@
+{
+  "format": "PyTorch state dictionaries with training metadata. Load with weights_only=True.",
+  "dataset_version": "independent-reconstruction-test26218-v5-notifications",
+  "checkpoints": {
+    "full": {
+      "file": "full.pt",
+      "sha256": "4a1d178a4456ba273d79ec8e04e5d4ad08533bc5a1d46371f37dbcad8cd556d3",
+      "training_instances": 1166,
+      "validation_instances": 281,
+      "training_subjects": 207,
+      "validation_subjects": 43,
+      "epochs": 5,
+      "selected_epoch": 5,
+      "seed": 42,
+      "validation": {
+        "recall": 0.9483985765124555,
+        "complete": 0.896797153024911,
+        "ndcg": 0.8645762080147904
+      },
+      "training_source_sha256": {
+        "ranker.py": "77b7319bac9952922d92f2fc438ce004c2614591250ba8c1bb8607f3f3f2768e",
+        "benchmark.py": "098322cd1207f2e2ee8f6d0012537ba635007864eb54827ad9bceea64d0e603a",
+        "method.py": "408b71cda125d6210c00cfdebb5d8ebd50833e3d83da4eb534b8786fb3d40d52",
+        "notifications.py": "a1f3e374a5a842c49540e94b64367499c3beb23105973b73a4fb80357bb6c9e5"
+      },
+      "data_sha256": {
+        "benchmark/subjects.jsonl": "c533378d3b47aca4356b4211a51ef7246a26156aba92548f6c0850f5f75508ae",
+        "policy.json": "a985e7def0e49fd770ce124f4ab499a299a8935e50b94352c69411492c042f93",
+        "splits.json": "e8b6b7faf55173af9c8f398893700bc5083e96e02ea64c98918bcb692e126539",
+        "trusted/notifications.jsonl": "2d6aa8d5e7b26eb923881523236fc099c6c8c29c9062174cb1050dfcdf7e13fc",
+        "trusted/grants.jsonl": "a1eb59dfc6761c4a9e9a938d5e28a630b14e49146f6a18e6fd8f249a3a8369db"
+      },
+      "label_sha256": {
+        "train": "8762c1b9df9919c3a1c44eb4611712871adeaab40990acf4b4d9c3789fee9b4b",
+        "validation": "8cb8072670889b85a6cfa7b7e87dfb2bc6e886677028b1ff5fea11377e80c7a3"
+      },
+      "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "encoder_signature": "828e1496d7fabb79cfa4dcd84fa38625c0d3d21da474a00f08db0f559940cf35:d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+    },
+    "pg": {
+      "file": "pg.pt",
+      "sha256": "1ae3f435d7b25283e93307d0f5e4f3f5abfe2fe78c68d23c4474395c02e4f597",
+      "training_instances": 1166,
+      "validation_instances": 281,
+      "training_subjects": 207,
+      "validation_subjects": 43,
+      "epochs": 5,
+      "selected_epoch": 5,
+      "seed": 42,
+      "validation": {
+        "recall": 0.9483985765124555,
+        "complete": 0.896797153024911,
+        "ndcg": 0.862710665102988
+      },
+      "training_source_sha256": {
+        "ranker.py": "77b7319bac9952922d92f2fc438ce004c2614591250ba8c1bb8607f3f3f2768e",
+        "benchmark.py": "098322cd1207f2e2ee8f6d0012537ba635007864eb54827ad9bceea64d0e603a",
+        "method.py": "408b71cda125d6210c00cfdebb5d8ebd50833e3d83da4eb534b8786fb3d40d52",
+        "notifications.py": "a1f3e374a5a842c49540e94b64367499c3beb23105973b73a4fb80357bb6c9e5"
+      },
+      "data_sha256": {
+        "benchmark/subjects.jsonl": "c533378d3b47aca4356b4211a51ef7246a26156aba92548f6c0850f5f75508ae",
+        "policy.json": "a985e7def0e49fd770ce124f4ab499a299a8935e50b94352c69411492c042f93",
+        "splits.json": "e8b6b7faf55173af9c8f398893700bc5083e96e02ea64c98918bcb692e126539",
+        "trusted/notifications.jsonl": "2d6aa8d5e7b26eb923881523236fc099c6c8c29c9062174cb1050dfcdf7e13fc",
+        "trusted/grants.jsonl": "a1eb59dfc6761c4a9e9a938d5e28a630b14e49146f6a18e6fd8f249a3a8369db"
+      },
+      "label_sha256": {
+        "train": "8762c1b9df9919c3a1c44eb4611712871adeaab40990acf4b4d9c3789fee9b4b",
+        "validation": "8cb8072670889b85a6cfa7b7e87dfb2bc6e886677028b1ff5fea11377e80c7a3"
+      },
+      "tokenizer_sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "encoder_signature": "828e1496d7fabb79cfa4dcd84fa38625c0d3d21da474a00f08db0f559940cf35:d241a60d5e8f04cc1b2b3e9ef7a4921b27bf526d9f6050ab90f9267a1f9e5c66"
+    }
+  },
+  "selection_verification": {
+    "full": {
+      "requests": 26218,
+      "authorization_groups": 11302,
+      "empty_evidence_requests": 3124,
+      "notification_allowed_requests": 2293,
+      "notification_allowed_with_all_targets": 2293,
+      "notification_denied_requests": 2293,
+      "notification_denied_with_target_excerpts": 0
+    },
+    "pg": {
+      "requests": 26218,
+      "authorization_groups": 11302,
+      "empty_evidence_requests": 3124,
+      "notification_allowed_requests": 2293,
+      "notification_allowed_with_all_targets": 2293,
+      "notification_denied_requests": 2293,
+      "notification_denied_with_target_excerpts": 0
+    },
+    "without_hgnn": {
+      "requests": 26218,
+      "authorization_groups": 11302,
+      "empty_evidence_requests": 3124,
+      "notification_allowed_requests": 2293,
+      "notification_allowed_with_all_targets": 2293,
+      "notification_denied_requests": 2293,
+      "notification_denied_with_target_excerpts": 0
+    }
+  }
+}

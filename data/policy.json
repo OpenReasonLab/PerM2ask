@@ -1,0 +1,435 @@
+{
+  "fields": [
+    {
+      "id": "F01",
+      "name": "Name",
+      "labels": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F02",
+      "name": "Age",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F03",
+      "name": "Biological Sex",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F04",
+      "name": "Phone Number",
+      "labels": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "F05",
+      "name": "Email Address",
+      "labels": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "F06",
+      "name": "Full Residential Address",
+      "labels": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "F07",
+      "name": "Government-issued Identification Number",
+      "labels": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "F08",
+      "name": "Current Chief Complaint and Symptoms",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F09",
+      "name": "Past Medical History",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F10",
+      "name": "Family Medical History",
+      "labels": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F11",
+      "name": "Allergy History",
+      "labels": [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F12",
+      "name": "Current Medications",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F13",
+      "name": "Recent Medication Discontinuations and Changes",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F14",
+      "name": "Vaccination History",
+      "labels": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F15",
+      "name": "Specified Recent Laboratory Results",
+      "labels": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F16",
+      "name": "Specified Imaging Findings",
+      "labels": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F17",
+      "name": "Recent Vital Signs",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F18",
+      "name": "Height, Weight, and BMI",
+      "labels": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F19",
+      "name": "Dietary and Nutritional Records",
+      "labels": [
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "id": "F20",
+      "name": "Exercise Capacity and Functional Status",
+      "labels": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F21",
+      "name": "Specified Surgical and Hospitalization Course",
+      "labels": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "id": "F22",
+      "name": "Mental Health Assessment Records",
+      "labels": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F23",
+      "name": "Sleep Status",
+      "labels": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "id": "F24",
+      "name": "Smoking, Alcohol, and Other Substance Use History",
+      "labels": [
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "id": "F25",
+      "name": "Reproductive and Pregnancy-related Information",
+      "labels": [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "S1",
+      "name": "Outpatient Appointment Scheduling",
+      "role": "appointment scheduler",
+      "purpose": "Arrange this outpatient appointment and contact the patient."
+    },
+    {
+      "id": "S2",
+      "name": "Laboratory Results Follow-up",
+      "role": "follow-up clinician",
+      "purpose": "Review the specified laboratory results at follow-up."
+    },
+    {
+      "id": "S3",
+      "name": "Pharmacist-led Medication Reconciliation",
+      "role": "pharmacist",
+      "purpose": "Reconcile current medication and recent medication changes."
+    },
+    {
+      "id": "S4",
+      "name": "Pre-vaccination Health Assessment",
+      "role": "vaccination clinician",
+      "purpose": "Perform this pre-vaccination health assessment."
+    },
+    {
+      "id": "S5",
+      "name": "Nutrition and Metabolic Follow-up",
+      "role": "nutrition clinician",
+      "purpose": "Provide nutrition and metabolic follow-up."
+    },
+    {
+      "id": "S6",
+      "name": "Pre-anesthesia Assessment",
+      "role": "anesthesia clinician",
+      "purpose": "Assess this patient before anesthesia."
+    },
+    {
+      "id": "S7",
+      "name": "Postoperative Functional Rehabilitation",
+      "role": "rehabilitation clinician",
+      "purpose": "Review postoperative functional recovery."
+    },
+    {
+      "id": "S8",
+      "name": "Mental Health Follow-up",
+      "role": "mental health clinician",
+      "purpose": "Provide the agreed mental health follow-up."
+    },
+    {
+      "id": "S9",
+      "name": "Emergency Medical Care",
+      "role": "emergency clinician",
+      "purpose": "Support this emergency care encounter."
+    }
+  ]
+}

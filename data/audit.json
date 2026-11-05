@@ -1,0 +1,76 @@
+{
+  "version": "independent-reconstruction-test26218-v5-notifications",
+  "base_commit": "5ea5e632d4ee3f28064fd9ca4da8974363e72021",
+  "notification_test_pairs": 2293,
+  "notification_test_profiles": {
+    "bad_signature": 382,
+    "expired_notification": 382,
+    "narrow_grant": 382,
+    "revoked_grant": 382,
+    "valid": 2293,
+    "wrong_actor": 383,
+    "wrong_grant_subject": 382
+  },
+  "verified_facts": 5307,
+  "request_count": 26218,
+  "subject_count": 1100,
+  "test_subjects": 846,
+  "counts": [
+    {
+      "dataset": "asclepius",
+      "split": "test",
+      "subjects": 800,
+      "allowed": 7603,
+      "denied": 2797
+    },
+    {
+      "dataset": "nhs_synthetic",
+      "split": "test",
+      "subjects": 32,
+      "allowed": 5302,
+      "denied": 1344
+    },
+    {
+      "dataset": "ltqa",
+      "split": "test",
+      "subjects": 14,
+      "allowed": 4830,
+      "denied": 4342
+    }
+  ],
+  "ranker_splits": [
+    {
+      "split": "train",
+      "instances": 1166,
+      "subjects_with_valid_pairs": 207,
+      "by_dataset": {
+        "asclepius": 696,
+        "ltqa": 208,
+        "nhs_synthetic": 262
+      }
+    },
+    {
+      "split": "validation",
+      "instances": 281,
+      "subjects_with_valid_pairs": 43,
+      "by_dataset": {
+        "asclepius": 113,
+        "ltqa": 80,
+        "nhs_synthetic": 88
+      }
+    }
+  ],
+  "sha256": {
+    "benchmark/subjects.jsonl": "c533378d3b47aca4356b4211a51ef7246a26156aba92548f6c0850f5f75508ae",
+    "benchmark/requests.jsonl": "bc2037e91b228b9c8cc9fbed14330d12087e18f43eef0f42506205983e56c812",
+    "private/gold.jsonl": "f8e4d35f20cccb95c46f83c43d54baed5831a63362054748c28ccadc9be5f83f",
+    "private/provenance.jsonl": "cdec4ad348a58e4ed20bd272c4bccd401e2e3dd7baa25d1c34cf2b926f5ad824",
+    "private/ranker_train.jsonl": "8762c1b9df9919c3a1c44eb4611712871adeaab40990acf4b4d9c3789fee9b4b",
+    "private/ranker_validation.jsonl": "8cb8072670889b85a6cfa7b7e87dfb2bc6e886677028b1ff5fea11377e80c7a3",
+    "trusted/notifications.jsonl": "2d6aa8d5e7b26eb923881523236fc099c6c8c29c9062174cb1050dfcdf7e13fc",
+    "trusted/grants.jsonl": "a1eb59dfc6761c4a9e9a938d5e28a630b14e49146f6a18e6fd8f249a3a8369db",
+    "private/citations.jsonl": "676e1fd79320d5101da6bfb8aff62ab1013ce111effd4cd875176090f3b536ae",
+    "splits.json": "e8b6b7faf55173af9c8f398893700bc5083e96e02ea64c98918bcb692e126539",
+    "policy.json": "a985e7def0e49fd770ce124f4ab499a299a8935e50b94352c69411492c042f93"
+  }
+}

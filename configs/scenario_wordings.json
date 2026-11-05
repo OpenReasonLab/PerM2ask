@@ -1,0 +1,164 @@
+[
+  {
+    "wording_id": "S1-train-1",
+    "scenario_id": "S1",
+    "split": "train",
+    "text": "Schedule the outpatient visit and notify the patient."
+  },
+  {
+    "wording_id": "S1-train-2",
+    "scenario_id": "S1",
+    "split": "train",
+    "text": "Book the outpatient appointment and contact the patient."
+  },
+  {
+    "wording_id": "S1-validation-1",
+    "scenario_id": "S1",
+    "split": "validation",
+    "text": "Arrange the outpatient consultation and reach the patient about the appointment."
+  },
+  {
+    "wording_id": "S2-train-1",
+    "scenario_id": "S2",
+    "split": "train",
+    "text": "Examine the specified laboratory values during the follow-up visit."
+  },
+  {
+    "wording_id": "S2-train-2",
+    "scenario_id": "S2",
+    "split": "train",
+    "text": "Review the specified test results at this follow-up."
+  },
+  {
+    "wording_id": "S2-validation-1",
+    "scenario_id": "S2",
+    "split": "validation",
+    "text": "Check the listed laboratory results as part of follow-up."
+  },
+  {
+    "wording_id": "S3-train-1",
+    "scenario_id": "S3",
+    "split": "train",
+    "text": "Review current medications together with recent medication changes."
+  },
+  {
+    "wording_id": "S3-train-2",
+    "scenario_id": "S3",
+    "split": "train",
+    "text": "Reconcile the current drug regimen with recently recorded changes."
+  },
+  {
+    "wording_id": "S3-validation-1",
+    "scenario_id": "S3",
+    "split": "validation",
+    "text": "Complete medication reconciliation for active medicines and recent changes."
+  },
+  {
+    "wording_id": "S4-train-1",
+    "scenario_id": "S4",
+    "split": "train",
+    "text": "Complete the pre-vaccination health assessment."
+  },
+  {
+    "wording_id": "S4-train-2",
+    "scenario_id": "S4",
+    "split": "train",
+    "text": "Assess the patient's health before the planned vaccination."
+  },
+  {
+    "wording_id": "S4-validation-1",
+    "scenario_id": "S4",
+    "split": "validation",
+    "text": "Carry out the health review for this patient before vaccination."
+  },
+  {
+    "wording_id": "S5-train-1",
+    "scenario_id": "S5",
+    "split": "train",
+    "text": "Conduct follow-up on the patient's nutrition and metabolic status."
+  },
+  {
+    "wording_id": "S5-train-2",
+    "scenario_id": "S5",
+    "split": "train",
+    "text": "Review nutrition and metabolic health at this follow-up."
+  },
+  {
+    "wording_id": "S5-validation-1",
+    "scenario_id": "S5",
+    "split": "validation",
+    "text": "Follow up on the patient's nutritional and metabolic status."
+  },
+  {
+    "wording_id": "S6-train-1",
+    "scenario_id": "S6",
+    "split": "train",
+    "text": "Assess the patient's status before anesthesia."
+  },
+  {
+    "wording_id": "S6-train-2",
+    "scenario_id": "S6",
+    "split": "train",
+    "text": "Review the patient's condition in preparation for anesthesia."
+  },
+  {
+    "wording_id": "S6-validation-1",
+    "scenario_id": "S6",
+    "split": "validation",
+    "text": "Complete the pre-anesthesia assessment for this patient."
+  },
+  {
+    "wording_id": "S7-train-1",
+    "scenario_id": "S7",
+    "split": "train",
+    "text": "Assess the patient's postoperative functional recovery."
+  },
+  {
+    "wording_id": "S7-train-2",
+    "scenario_id": "S7",
+    "split": "train",
+    "text": "Evaluate functional recovery after surgery."
+  },
+  {
+    "wording_id": "S7-validation-1",
+    "scenario_id": "S7",
+    "split": "validation",
+    "text": "Review the patient's progress in postoperative functional recovery."
+  },
+  {
+    "wording_id": "S8-train-1",
+    "scenario_id": "S8",
+    "split": "train",
+    "text": "Carry out the agreed follow-up for the patient's mental health."
+  },
+  {
+    "wording_id": "S8-train-2",
+    "scenario_id": "S8",
+    "split": "train",
+    "text": "Provide the mental health follow-up agreed with the patient."
+  },
+  {
+    "wording_id": "S8-validation-1",
+    "scenario_id": "S8",
+    "split": "validation",
+    "text": "Follow up on mental health within the agreed scope."
+  },
+  {
+    "wording_id": "S9-train-1",
+    "scenario_id": "S9",
+    "split": "train",
+    "text": "Assist with care during this emergency encounter."
+  },
+  {
+    "wording_id": "S9-train-2",
+    "scenario_id": "S9",
+    "split": "train",
+    "text": "Provide support for the current emergency care encounter."
+  },
+  {
+    "wording_id": "S9-validation-1",
+    "scenario_id": "S9",
+    "split": "validation",
+    "text": "Support the ongoing emergency care encounter."
+  }
+]

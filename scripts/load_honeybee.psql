@@ -1,0 +1,22 @@
+\set ON_ERROR_STOP on
+BEGIN;
+LOCK TABLE Users, Roles, UserRoles, Documents, DocumentBlocks, PermissionAssignment IN ACCESS EXCLUSIVE MODE;
+DO $guard$
+BEGIN
+    IF EXISTS (SELECT 1 FROM Users) OR EXISTS (SELECT 1 FROM Roles)
+       OR EXISTS (SELECT 1 FROM UserRoles) OR EXISTS (SELECT 1 FROM Documents)
+       OR EXISTS (SELECT 1 FROM DocumentBlocks) OR EXISTS (SELECT 1 FROM PermissionAssignment) THEN
+        RAISE EXCEPTION 'Load requires a dedicated empty HoneyBee database';
+    END IF;
+END;
+$guard$;
+\copy Users(user_id,user_name) FROM 'Users.csv' WITH (FORMAT csv, HEADER true)
+\copy Roles(role_id,role_name) FROM 'Roles.csv' WITH (FORMAT csv, HEADER true)
+\copy UserRoles(user_id,role_id) FROM 'UserRoles.csv' WITH (FORMAT csv, HEADER true)
+\copy Documents(document_id,document_name) FROM 'Documents.csv' WITH (FORMAT csv, HEADER true)
+\copy DocumentBlocks(block_id,document_id,block_content,hash_value,vector) FROM 'DocumentBlocks.csv' WITH (FORMAT csv, HEADER true)
+\copy PermissionAssignment(role_id,document_id) FROM 'PermissionAssignment.csv' WITH (FORMAT csv, HEADER true)
+SELECT setval(pg_get_serial_sequence('users','user_id'),max(user_id)) FROM Users;
+SELECT setval(pg_get_serial_sequence('roles','role_id'),max(role_id)) FROM Roles;
+SELECT setval(pg_get_serial_sequence('documents','document_id'),max(document_id)) FROM Documents;
+COMMIT;
