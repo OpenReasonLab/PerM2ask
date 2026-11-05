@@ -1,6 +1,6 @@
 # PerM²ask
 
-PerM²ask retrieves evidence from personal medical records within the scope of a trusted care task. In the LTQA notification experiment, it verifies the app's signed assertion about the sender and a separate signed patient grant. It intersects the grant with the care scenario and patient restrictions before ranking facts on a patient-local hypergraph. The answering model receives only the selected excerpts. The incoming question can ask for further records, but only a verified grant can permit their release.
+In the experiments reported in the paper, PerM²ask provides adaptive access control for personal medical records. For each request, it uses trusted information about the sender's role, the care task, and the patient's permissions to determine which facts are both necessary and authorized. It masks all other medical data before ranking the eligible facts on a patient-specific hypergraph. The large language model (LLM) receives only the selected excerpts, even when the sender's message asks for broader access.
 
 ## Trusted notification, untrusted question
 
