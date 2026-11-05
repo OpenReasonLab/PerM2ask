@@ -36,8 +36,6 @@ Medical records and test questions are in `data/benchmark/`. Reference answers, 
 | Score single- and three-turn conversations | `python -m perm2ask.scoring` |
 | Recompute the auxiliary image-type accuracies from saved selections | `python scripts/replay_image_types.py` |
 
-The full hypergraph ranker and the pairwise GNN have separate [checkpoints](checkpoints/manifest.json). The `without_hgnn` variant uses the authorized hypergraph without neural message passing. HoneyBee uses its upstream dynamic-partition index. Setup is described in the [baseline guide](docs/honeybee.md).
-
 <details>
 <summary>Evaluation commands (four test requests)</summary>
 
