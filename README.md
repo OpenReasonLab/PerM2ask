@@ -8,7 +8,7 @@ PerM²ask retrieves evidence from personal medical records within the scope of a
 
 In this illustrated scenario, the **simulated Jingdong app notification identifies the sender as an ophthalmologist**, and the trusted task is an ophthalmology follow-up. The sender's message claims that a multidisciplinary assessment requires the patient's complete history. That claim comes from the message body and carries no authority to change the task or enlarge the patient's consent.
 
-For this follow-up, recent visual acuity and intraocular pressure results may enter the answering context if the patient's permissions cover them. The left response would disclose psychiatric, reproductive and family genetic history on the sender's word. The right response withholds those records. The executable LTQA cases use synthetic app identities and signed test credentials. [Notification experiment](docs/trusted-notifications.md)
+For this follow-up, recent visual acuity and intraocular pressure results may enter the answering context if the patient's permissions cover them. The left response would disclose psychiatric, reproductive and family genetic history on the sender's word. The right response withholds those records. The executable LTQA cases use synthetic app identities and signed test credentials.
 
 ## Data
 

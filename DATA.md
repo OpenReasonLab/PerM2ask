@@ -15,7 +15,7 @@ The main paper reports results on 12,320 test instances. We subsequently supplem
 
 ## LTQA notification pairs
 
-The notification cohort covers 14 LTQA test users. Each of 2,293 questions appears twice with the same patient, message and requested facts. The two cases differ in one aspect of the simulated app credential or patient grant, so one permits disclosure and the other withholds the target. Each ledger also covers 104 training and 40 validation instances. [Conditions and scoring](docs/trusted-notifications.md)
+The notification cohort covers 14 LTQA test users. Each of 2,293 questions appears twice with the same patient, message and requested facts. The two cases differ in one aspect of the simulated app credential or patient grant, so one permits disclosure and the other withholds the target. Each ledger also covers 104 training and 40 validation instances.
 
 ## NHS and LTQA request types
 
